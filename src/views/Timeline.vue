@@ -50,6 +50,10 @@ import Header from "@/header/Header.vue";
     color: var(--custom-green);
 }
 
+.p-accordion .p-accordion-header .p-accordion-header-link:hover {
+    background: var(--custom-orange);
+}
+
 .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
     background: var(--custom-orange);
     border-color: var(--custom-orange);
