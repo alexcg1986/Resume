@@ -2,13 +2,22 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "CleanTemplate",
+        pushed_at: "",
+        name: "Clean Architecture Template",
+        image: require("@/assets/clean.png"),
+        repo: "https://github.com/mezdelex/CleanTemplate",
+        app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
+        description: ".NET 7 Clean Architecture template in development using Domain Driven Design, Domain Events with MediatR library, Command Query Responsibility Segregation pattern, Minimal API, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig cross IDE configuration, Testing, FluentAssertions, etc. Coded with Neovim"
+    },
+    {
         id: "TodoApp",
         pushed_at: "",
         name: "TodoApp API",
         image: require("@/assets/todoapp.png"),
         repo: "https://github.com/mezdelex/TodoApp",
         app: "https://github.com/users/mezdelex/projects/1",
-        description: "RESTful API to learn Go using Fiber framework, following Clean Architecture principles with Domain Driven Design in mind, GORM as ORM with automigrations and code first schema definition, PostgreSQL as database and GitHub Projects as task and time management platform. Coded with Neovim."
+        description: "RESTful API to learn Go using Fiber framework, following Clean Architecture principles with Domain Driven Design in mind, JWT authentication/authorization, GORM as ORM with automigrations and code first schema definition, PostgreSQL as database and GitHub Projects as task and time management platform. Coded with Neovim."
     },
     {
         id: "Botchy",
