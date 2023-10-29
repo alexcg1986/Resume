@@ -8,7 +8,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/clean.png"),
         repo: "https://github.com/mezdelex/CleanTemplate",
         app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
-        description: ".NET 7 Clean Architecture template in development using Domain Driven Design, Domain Events with MediatR library, Command Query Responsibility Segregation pattern, Minimal API, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig cross IDE configuration, Testing, FluentAssertions, etc. Coded with Neovim"
+        description: ".NET 7 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim"
     },
     {
         id: "TodoApp",
