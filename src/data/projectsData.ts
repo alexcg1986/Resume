@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "ResumeReact",
+        pushed_at: "",
+        name: "Resume with React",
+        image: require("@/assets/resumereact.png"),
+        repo: "https://github.com/mezdelex/ResumeReact",
+        app: "https://react.dev",
+        description: "React 18 app that replicates my online portfolio originally done with Vue 3. Used Vite builder, Typescript, Material UI library for component styling and theming, React Router and Context Provider for manual rendering with mutable properties stored as context. Coded with Neovim."
+    },
+    {
         id: "CleanTemplate",
         pushed_at: "",
         name: "Clean Architecture Template",
