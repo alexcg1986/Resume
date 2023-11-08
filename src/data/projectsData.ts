@@ -75,12 +75,12 @@ export const projectsData: Array<IProject> = [
     },
     {
         id: "",
-        pushed_at: "2023-03-25T07:40:47Z",
+        pushed_at: "2023-11-08T07:40:47Z",
         name: "Touch Typing",
         image: require("@/assets/monkeytype.png"),
         repo: "https://github.com/monkeytypegame/monkeytype",
         app: "https://monkeytype.com/",
-        description: "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 120 WPM with 100% accuracy & 86% consistency @ monkeytype 15s typing test.",
+        description: "A journey started in May 2022 to improve my touch typing skills and eventually increase my productivity. My current best mark is at 125 WPM with 100% accuracy & 90% consistency @ monkeytype 15s typing test.",
     },
     {
         id: "Calculator",
