@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "RustExamples",
+        pushed_at: "",
+        name: "Rust Examples",
+        image: require("@/assets/rust.png"),
+        repo: "https://github.com/mezdelex/RustExamples",
+        app: "https://www.rust-lang.org/",
+        description: "Rust repository containing examples on various topics related to the language, such as concurrency, mutability, borrowing, lifetimes, data structures, etc. Work in progress. Coded with Neovim."
+    },
+    {
         id: "ResumeReact",
         pushed_at: "",
         name: "Resume with React",
