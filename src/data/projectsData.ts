@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "AoC2023",
+        pushed_at: "",
+        name: "Advent of Code (2023)",
+        image: require("@/assets/aoc2023.png"),
+        repo: "https://github.com/mezdelex/AoC2023",
+        app: "https://adventofcode.com/2023",
+        description: "Algorithmic problem solving to achieve further Rust language proficiency with data structures, mutability and other language specific stuff. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with Neovim."
+    },
+    {
         id: "RustExamples",
         pushed_at: "",
         name: "Rust Examples",
@@ -116,7 +125,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/resume.png"),
         repo: "https://github.com/mezdelex/Resume",
         app: "https://www.mezdelex.com",
-        description: "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with VSCode.",
+        description: "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with Neovim.",
     },
     {
         id: "Concesionario-SPA",
