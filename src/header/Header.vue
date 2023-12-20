@@ -1,6 +1,7 @@
 <template>
     <div class="header animate__animated animate__faster animate__fadeInDown">
         <div class="p-d-flex p-flex-row p-jc-end p-ai-start p-mr-3 p-pt-3">
+
             <Button :icon="Icons.Bars" class="p-button-outlined p-button-warning" @click="showSidebar = true" />
         </div>
         <div class="p-d-flex p-flex-column p-jc-around p-ai-center">

@@ -4,6 +4,15 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
+        title: "northBIM",
+        date: `2023-Present`,
+        activity: Activity.Development,
+        where: "https://northbim.com/",
+        stack: "Python, C#, Typescript, React, PostgreSQL, MySQL, MariaDB, pytest, Playwright, Jest...",
+        tasks: ["To be determined..."]
+    },
+    {
+        icon: Icons.Code,
         title: "KPMG",
         date: `2023-2023 ${Reasons.Resign}`,
         activity: Activity.Development,
