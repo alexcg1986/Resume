@@ -8,8 +8,12 @@ export const timelineData: Array<ITimeline> = [
         date: `2023-Present`,
         activity: Activity.Development,
         where: "https://northbim.com/",
-        stack: "Python, C#, Typescript, React, PostgreSQL, MySQL, MariaDB, pytest, Playwright, Jest...",
-        tasks: ["To be determined..."]
+        stack: "Python, C#, Lua, Typescript, React, Docker, FastApi, SQLAlchemy, pytest, Revit SDK, Ant Design, Jest, Playwright, Git, PostgreSQL, MySQL, MariaDB, Neovim, Visual Studio, DBeaver...",
+        tasks: [
+            "Company's own platform module development and bug fixing.",
+            "Plugin development using Revit SDK Visual Studio integration.",
+            "Code coverage with unit and integration tests."
+        ]
     },
     {
         icon: Icons.Code,
@@ -17,7 +21,7 @@ export const timelineData: Array<ITimeline> = [
         date: `2023-2023 ${Reasons.Resign}`,
         activity: Activity.Development,
         where: "https://kpmg.com/",
-        stack: ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, Stored Procedures, Triggers, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Domain Driven Design, Clean Architecture, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern, CQRS Pattern...",
+        stack: ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern...",
         tasks: [
             "Web applications development.",
             "Mobile applications development.",
