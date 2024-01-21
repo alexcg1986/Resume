@@ -8,7 +8,7 @@ export const timelineData: Array<ITimeline> = [
         date: `2023-Present`,
         activity: Activity.Development,
         where: "https://northbim.com/",
-        stack: "Python, C#, Lua, Typescript, React, Docker, FastApi, SQLAlchemy, pytest, Revit SDK, Ant Design, Jest, Playwright, Git, PostgreSQL, MySQL, MariaDB, Neovim, Visual Studio, DBeaver...",
+        stack: "Python, C#, Lua, Typescript, React, Yaml, Docker, FastApi, SQLAlchemy, pytest, Revit SDK, Ant Design, Jest, Playwright, Git, PostgreSQL, MySQL, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, Windows Terminal, Powershell, DBeaver...",
         tasks: [
             "Company's own platform module development and bug fixing.",
             "Plugin development using Revit SDK Visual Studio integration.",
