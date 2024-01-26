@@ -17,9 +17,7 @@ export enum Icons {
     Link = "pi pi-link",
     LinkedIn = "pi pi-linkedin",
     List = "fa-solid fa-list",
-    Reddit = "pi pi-reddit",
-    StackOverflow = "fa-brands fa-stack-overflow",
-    Twitch = "fa-brands fa-twitch"
+    Reddit = "pi pi-reddit"
 }
 
 export enum Reasons {

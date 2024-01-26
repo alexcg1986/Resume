@@ -34,15 +34,9 @@
             </h3>
             <div class="social">
                 <a href="https://github.com/mezdelex" :class="`${Icons.GitHub} socialLink p-mr-2`" target="_blank" />
-                <a href="https://stackoverflow.com/users/15234817/mezdelex" target="_blank">
-                    <font-awesome-icon :icon="Icons.StackOverflow" class="socialLink custom-social-icon p-mr-2" />
-                </a>
                 <a href="https://linkedin.com/in/mezdelex/" :class="`${Icons.LinkedIn} socialLink p-mr-2`"
                     target="_blank" />
                 <a href="https://reddit.com/user/Mezdelex" :class="`${Icons.Reddit} socialLink p-mr-2`" target="_blank" />
-                <a href="https://www.twitch.tv/mezdelex" target="_blank">
-                    <font-awesome-icon :icon="Icons.Twitch" class="socialLink custom-social-icon" />
-                </a>
             </div>
         </div>
     </div>
