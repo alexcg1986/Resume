@@ -8,6 +8,7 @@
     "@vue/cli": "^5.0.8",
     "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
+    "moment": "^2.30.1",
     "primeflex": "^2.0.0",
     "primeicons": "^5.0.0",
     "primevue": "^3.3.5",

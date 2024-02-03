@@ -2,6 +2,7 @@ import { repositoriesStore } from "@/shared/repositoriesStore";
 import { projectsStore } from "@/shared/projectsStore";
 import { projectsData } from "@/data/projectsData";
 import IProjectsService from "./IProjectsService";
+import moment from "moment";
 
 export const projectsService: IProjectsService = {
     sortProjects: () => {
@@ -13,7 +14,7 @@ export const projectsService: IProjectsService = {
                         .toUpperCase();
 
                 return project;
-            }).sort((previous, next) => new Date(next.pushed_at).getTime() - new Date(previous.pushed_at).getTime());
+            }).sort((previous, next) => moment(next.pushed_at).valueOf() - moment(previous.pushed_at).valueOf());
         else
             projectsStore.projects = projectsData;
     }

@@ -1,5 +1,6 @@
 import { repositoriesStore } from "@/shared/repositoriesStore";
 import IGitHubService from "@/services/github/IGitHubService";
+import moment from "moment";
 
 const reposUrl: string = "https://api.github.com/users/mezdelex/repos";
 const commitsUrl: string = `https://api.github.com/repos/mezdelex/replaceMe/commits`;
@@ -12,7 +13,7 @@ export const gitHubService: IGitHubService = {
     getUpdatedRepo: () => {
         if (repositoriesStore.repos.length)
             repositoriesStore.repo = repositoriesStore.repos
-                .reduce((current, next) => new Date(current.pushed_at) > new Date(next.pushed_at)
+                .reduce((current, next) => moment(current.pushed_at).valueOf() > moment(next.pushed_at).valueOf()
                     ? current
                     : next, repositoriesStore.repos[0]).name;
     },
