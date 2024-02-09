@@ -8,11 +8,10 @@ export const timelineData: Array<ITimeline> = [
         date: `2023-Present`,
         activity: Activity.Development,
         where: "https://northbim.com/",
-        stack: "Python, C#, Lua, Typescript, React, Yaml, Docker, Kubernetes, FastApi, SQLAlchemy, pytest, Revit SDK, pyRevit, IronPython, Ant Design, Jest, Playwright, Git, PostgreSQL, MySQL, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, K9s, kubectl, Windows Terminal, Powershell, DBeaver...",
+        stack: "Python, C#, Lua, Typescript, React, Yaml, Docker, Kubernetes, FastApi, SQLAlchemy, Alembic, Swagger, Revit SDK, pyRevit, Python.Net, IronPython, Ant Design, BC3, Git, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, K9s, kubectl, Windows Terminal, Powershell, DBeaver...",
         tasks: [
             "Company's own platform module development and bug fixing.",
-            "Plugin development using Revit SDK Visual Studio integration.",
-            "Code coverage with unit and integration tests."
+            "Revit plugin development using pyRevit and either IronPython or Python.Net CPython implementation."
         ]
     },
     {

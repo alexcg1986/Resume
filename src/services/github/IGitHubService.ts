@@ -1,5 +1,5 @@
 export default interface IGitHubService {
-    getRepos: () => Promise<void>;
+    getRepos: () => void;
     getUpdatedRepo: () => void;
     getLastCommit: () => void;
 }

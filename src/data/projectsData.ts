@@ -56,15 +56,6 @@ export const projectsData: Array<IProject> = [
         description: "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord."
     },
     {
-        id: "VSCodeConfig",
-        pushed_at: "",
-        name: "Visual Studio Code",
-        image: require("@/assets/vscode.png"),
-        repo: "https://github.com/mezdelex/VSCodeConfig",
-        app: "https://code.visualstudio.com/",
-        description: "Visual Studio Code config with custom Delugia font, VSCodeVim integration, various linters and formatters, custom editor appearance, modified editor behaviors, debugging options, custom keybindings..."
-    },
-    {
         id: "WindowsTerminalPowerShellCoreConfig",
         pushed_at: "",
         name: "Windows Terminal",
