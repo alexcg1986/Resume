@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
     {
+        id: "LFConfig",
+        pushed_at: "",
+        name: "LF File Manager",
+        image: require("@/assets/lf.png"),
+        repo: "https://github.com/mezdelex/LFConfig",
+        app: "https://github.com/gokcehan/lf/wiki/Tutorial",
+        description: "LF TUI File Manager config with essential custom keymaps and options, custom color and icon integration per file type/extension/pattern/format and pane layout border."
+    },
+    {
         id: "AoC2023",
         pushed_at: "",
         name: "Advent of Code (2023)",
@@ -62,7 +71,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/wtpwsh.png"),
         repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
         app: "https://learn.microsoft.com/en-us/windows/terminal/",
-        description: "Windows Terminal config with custom Delugia font, Powershell Core and custom prompt forked from patriksvensson's Oh My Posh theme. Includes fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via Z Directory Jumper, icon glyphs via Terminal Icons and other minor enhancements."
+        description: "Windows Terminal config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s..."
     },
     {
         id: "NeovimConfig",
@@ -71,7 +80,7 @@ export const projectsData: Array<IProject> = [
         image: require("@/assets/neovim.png"),
         repo: "https://github.com/mezdelex/NeovimConfig",
         app: "https://neovim.io/",
-        description: "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file tree, git integration, code modification history, status line, autopairs, autotags...",
+        description: "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file manager, git integration, code modification history, status line, autopairs, autotags...",
     },
     {
         id: "AoC2022",
