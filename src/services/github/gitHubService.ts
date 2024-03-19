@@ -1,6 +1,5 @@
 import { repositoriesStore } from "@/shared/repositoriesStore";
 import IGitHubService from "@/services/github/IGitHubService";
-import moment from "moment";
 import _ from "lodash";
 
 const reposUrl: string = "https://api.github.com/users/mezdelex/repos";

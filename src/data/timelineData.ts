@@ -4,7 +4,7 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: Array<ITimeline> = [
     {
         icon: Icons.Code,
-        title: "northBIM",
+        title: "enbî",
         date: `2023-Present`,
         activity: Activity.Development,
         where: "https://northbim.com/",
