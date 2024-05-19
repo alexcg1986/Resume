@@ -2,6 +2,15 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
   {
+    id: "expenses-gateway",
+    pushed_at: "",
+    name: "Expenses (gateway)",
+    image: require("@/assets/fastapi.png"),
+    repo: "https://github.com/mezdelex/expenses-gateway",
+    app: "https://fastapi.tiangolo.com/",
+    description: "Work in progress gateway of an app to manage own expenses being developed using FastAPI framework together with Pydantic as strict typing validation library, pytest framework for testing, asyncio to handle requests asynchronously, httpx as async requests client library, etc. Coded with Neovim."
+  },
+  {
     id: "expenses-backend",
     pushed_at: "",
     name: "Expenses (backend)",
