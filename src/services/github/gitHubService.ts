@@ -2,11 +2,11 @@ import { repositoriesStore } from "@/shared/repositoriesStore";
 import IGitHubService from "@/services/github/IGitHubService";
 import _ from "lodash";
 
-const reposUrl: string = "https://api.github.com/users/mezdelex/repos";
+const reposUrl: string = "https://api.github.com/users/mezdelex/repos?per_page=100";
 const commitsUrl: string = `https://api.github.com/repos/mezdelex/replaceMe/commits`;
 
 export const gitHubService: IGitHubService = {
-  getRepos: () => fetch(reposUrl)
+  getRepos: async () => fetch(reposUrl)
     .then(response => response.json())
     .then(data => (repositoriesStore.repos = data))
     .catch(error => console.log(error)),
@@ -14,7 +14,7 @@ export const gitHubService: IGitHubService = {
     if (repositoriesStore.repos.length)
       repositoriesStore.repo = _.chain(repositoriesStore.repos).maxBy(repo => repo.pushed_at).value().name
   },
-  getLastCommit: () => {
+  getLastCommit: async () => {
     if (repositoriesStore.repos.length)
       fetch(commitsUrl.replace("replaceMe", repositoriesStore.repo))
         .then(response => response.json())

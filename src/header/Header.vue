@@ -55,7 +55,7 @@ onMounted(async () => {
   if (repositoriesStore.link === "") {
     await gitHubService.getRepos();
     gitHubService.getUpdatedRepo();
-    gitHubService.getLastCommit();
+    await gitHubService.getLastCommit();
   }
 });
 </script>

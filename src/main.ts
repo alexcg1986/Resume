@@ -23,15 +23,15 @@ import "primevue/resources/themes/luna-amber/theme.css";
 library.add(faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList);
 
 createApp(App)
-    .use(PrimeVue, { ripple: true })
-    .use(router)
-    .component("Accordion", Accordion)
-    .component("AccordionTab", AccordionTab)
-    .component("Button", Button)
-    .component("Card", Card)
-    .component("Fieldset", Fieldset)
-    .component("ScrollTop", ScrollTop)
-    .component("Sidebar", Sidebar)
-    .component("Timeline", Timeline)
-    .component("font-awesome-icon", FontAwesomeIcon)
-    .mount("#app");
+  .use(PrimeVue, { ripple: true })
+  .use(router)
+  .component("Accordion", Accordion)
+  .component("AccordionTab", AccordionTab)
+  .component("Button", Button)
+  .component("Card", Card)
+  .component("Fieldset", Fieldset)
+  .component("ScrollTop", ScrollTop)
+  .component("Sidebar", Sidebar)
+  .component("Timeline", Timeline)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");
