@@ -2,33 +2,6 @@ import IProject from "@/models/IProject";
 
 export const projectsData: Array<IProject> = [
   {
-    id: "expenses-frontend",
-    pushed_at: "",
-    name: "Expenses (frontend)",
-    image: require("@/assets/chakra.png"),
-    repo: "https://github.com/mezdelex/expenses-frontend",
-    app: "https://v2.chakra-ui.com/",
-    description: "Work in progress frontend of an app to manage own expenses being developed using React as base library, React Router, Chakra UI as component library, Vite as local server and project scaffolder, etc. Coded with Neovim."
-  },
-  {
-    id: "expenses-gateway",
-    pushed_at: "",
-    name: "Expenses (gateway)",
-    image: require("@/assets/fastapi.png"),
-    repo: "https://github.com/mezdelex/expenses-gateway",
-    app: "https://fastapi.tiangolo.com/",
-    description: "Work in progress gateway of an app to manage own expenses being developed using FastAPI framework together with Pydantic as strict typing validation library, pytest framework for testing, asyncio to handle requests asynchronously, httpx as async requests client library, etc. Coded with Neovim."
-  },
-  {
-    id: "expenses-backend",
-    pushed_at: "",
-    name: "Expenses (backend)",
-    image: require("@/assets/fastapi.png"),
-    repo: "https://github.com/mezdelex/expenses-backend",
-    app: "https://fastapi.tiangolo.com/",
-    description: "Work in progress backend of an app to manage own expenses being developed using FastAPI framework together with SQLAlchemy as ORM, Pydantic as strict typing validation library, Alembic as Code First DB management, pytest framework for testing, asyncio to handle requests asynchronously, etc. Coded with Neovim."
-  },
-  {
     id: "LFConfig",
     pushed_at: "",
     name: "LF File Manager",
