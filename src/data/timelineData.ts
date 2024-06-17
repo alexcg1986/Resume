@@ -10,9 +10,13 @@ export const timelineData: Array<ITimeline> = [
     where: "https://northbim.com/",
     stack: "Python, C#, Lua, Typescript, React, Yaml, Docker, Kubernetes, Pydantic, FastApi, SQLAlchemy, Alembic, Pandas, Swagger, Revit SDK, pyRevit, Python.Net, IronPython, Ant Design, BC3, Git, GitLab, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, K9s, kubectl, Windows Terminal, Powershell, DBeaver...",
     tasks: [
-      "Company's own platform module development and bug fixing.",
-      "Revit plugin development using .NET Framework, WinForms and pyRevit with either IronPython or Python.Net CPython implementation.",
-      "Task and pull request management with GitLab."
+      "Designed, built, and deployed various asynchronous minimal API projects using FastAPI and code first approach.",
+      "Automated data parsing and transformation pipelines using Pandas and OpenPyXL.",
+      "Developed interactive data visualizations using React and Ant Design Charts library.",
+      "Contributed to the development and bug fixing of various company platform modules.",
+      "Managed containerized deployments using Docker images and orchestrated them with kubectl and k9s.",
+      "Developed Revit plugins using .NET Framework, WinForms, pyRevit, and either IronPython or Python.Net CPython.",
+      "Utilized GitLab for version control and collaboration on tasks and merge requests."
     ]
   },
   {
