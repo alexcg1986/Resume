@@ -29,15 +29,6 @@ export const projectsData: Array<IProject> = [
     description: "Rust repository containing examples on various topics related to the language, such as concurrency, mutability, borrowing, lifetimes, data structures, etc. Work in progress. Coded with Neovim."
   },
   {
-    id: "ResumeReact",
-    pushed_at: "",
-    name: "Resume with React",
-    image: require("@/assets/resumereact.png"),
-    repo: "https://github.com/mezdelex/ResumeReact",
-    app: "https://react.dev",
-    description: "React 18 app that replicates my online portfolio originally done with Vue 3. Used Vite builder, Typescript, Material UI library for component styling and theming, React Router and Context Provider for manual rendering with mutable properties stored as context. Coded with Neovim."
-  },
-  {
     id: "CleanTemplate",
     pushed_at: "",
     name: "Clean Architecture Template",
