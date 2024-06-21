@@ -1,6 +1,7 @@
 <template>
   <div class="p-grid">
-    <Card class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
+    <Card v-if="repositoriesStore.finished"
+      class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
       v-for="project in projectsStore.projects" :key="project.name">
       <template #header>
         <span class="last-update">
@@ -37,6 +38,9 @@
         </div>
       </template>
     </Card>
+    <div v-else class="p-col" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+      <ProgressSpinner style="width: 20rem; height: 20rem; fill: transparent;" />
+    </div>
   </div>
 </template>
 
@@ -45,6 +49,7 @@ import IProject from "@/models/IProject";
 import { Icons } from "@/enums/enums";
 import { projectsService } from "@/services/projects/projectsService";
 import { projectsStore } from "@/shared/projectsStore";
+import { repositoriesStore } from "@/shared/repositoriesStore";
 import { watchEffect } from "vue";
 
 const getLastUpdate = (project: IProject) => project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown"

@@ -8,4 +8,5 @@ export const repositoriesStore = reactive({
   repo: ref(""),
   sha: ref(""),
   link: ref(""),
+  finished: ref(false),
 });

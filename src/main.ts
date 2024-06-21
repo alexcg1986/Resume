@@ -5,8 +5,10 @@ import Button from "primevue/button";
 import Card from "primevue/card";
 import Fieldset from "primevue/fieldset";
 import PrimeVue from "primevue/config";
+import ProgressSpinner from "primevue/progressspinner";
 import ScrollTop from "primevue/scrolltop";
 import Sidebar from "primevue/sidebar";
+import Skeleton from "primevue/skeleton";
 import Timeline from "primevue/timeline";
 import router from "@/router/router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -30,8 +32,10 @@ createApp(App)
   .component("Button", Button)
   .component("Card", Card)
   .component("Fieldset", Fieldset)
+  .component("ProgressSpinner", ProgressSpinner)
   .component("ScrollTop", ScrollTop)
   .component("Sidebar", Sidebar)
+  .component("Skeleton", Skeleton)
   .component("Timeline", Timeline)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

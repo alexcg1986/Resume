@@ -1,7 +1,6 @@
 <template>
   <div class="header animate__animated animate__faster animate__fadeInDown">
     <div class="p-d-flex p-flex-row p-jc-end p-ai-start p-mr-3 p-pt-3">
-
       <Button :icon="Icons.Bars" class="p-button-outlined p-button-warning" @click="showSidebar = true" />
     </div>
     <div class="p-d-flex p-flex-column p-jc-around p-ai-center">
@@ -16,7 +15,7 @@
         Alejandro Conde Gómez
         <span class="curly-brackets">}</span>
       </h1>
-      <h3 class="github" v-show="repositoriesStore.link !== ''">
+      <h3 class="github" v-if="repositoriesStore.finished && repositoriesStore.link">
         <div class="date-and-link">
           <div>
             Last activity:
@@ -32,6 +31,11 @@
           <span class="custom-message">{{ repositoriesStore.message }}</span>
         </div>
       </h3>
+      <div v-else class="github">
+        <Skeleton width="15rem" class="p-mb-1" />
+        <Skeleton width="20rem" class="p-mb-1" />
+        <Skeleton width="20rem" />
+      </div>
       <div class="social">
         <a href="https://github.com/mezdelex" :class="`${Icons.GitHub} socialLink p-mr-2`" target="_blank" />
         <a href="https://linkedin.com/in/mezdelex/" :class="`${Icons.LinkedIn} socialLink p-mr-2`" target="_blank" />
@@ -56,6 +60,7 @@ onMounted(async () => {
     await gitHubService.getRepos();
     gitHubService.getUpdatedRepo();
     await gitHubService.getLastCommit();
+    repositoriesStore.finished = true;
   }
 });
 </script>
