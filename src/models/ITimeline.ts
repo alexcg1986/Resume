@@ -7,5 +7,5 @@ export default interface ITimeline {
   activity: Activity;
   where: string;
   stack: string;
-  tasks: Array<string>;
+  tasks: string[];
 }

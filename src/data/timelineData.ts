@@ -1,23 +1,24 @@
 import ITimeline from "@/models/ITimeline";
 import { Activity, Icons, Reasons } from "@/enums/enums";
 
-export const timelineData: Array<ITimeline> = [
+export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
     title: "enbî",
     date: `2023-Present`,
     activity: Activity.Development,
     where: "https://northbim.com/",
-    stack: "Python, C#, Lua, Typescript, React, Yaml, Docker, Kubernetes, Pydantic, FastApi, SQLAlchemy, Alembic, Pandas, Swagger, Revit SDK, pyRevit, Python.Net, IronPython, Ant Design, BC3, Git, GitLab, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, K9s, kubectl, Windows Terminal, Powershell, DBeaver...",
+    stack:
+      "Python, C#, Lua, Typescript, React, Yaml, Docker, Kubernetes, Pydantic, FastApi, SQLAlchemy, Alembic, Pandas, Swagger, Revit SDK, Ant Design, BC3, Git, GitLab, MariaDB, Neovim, Visual Studio, Lazygit, Lazydocker, K9s, kubectl, Windows Terminal, Powershell, DBeaver...",
     tasks: [
       "Designed, built, and deployed various asynchronous minimal API projects using FastAPI and code first approach.",
       "Automated data parsing and transformation pipelines using Pandas and OpenPyXL.",
       "Developed interactive data visualizations using React and Ant Design Charts library.",
       "Contributed to the development and bug fixing of various company platform modules.",
       "Managed containerized deployments using Docker images and orchestrated them with kubectl and k9s.",
-      "Developed Revit plugins using .NET Framework, WinForms, pyRevit, and either IronPython or Python.Net CPython.",
-      "Utilized GitLab for version control and collaboration on tasks and merge requests."
-    ]
+      "Extended and improved performance of some of the company's Revit plugins using .NET Framework 4.8 and WinForms under Visual Studio.",
+      "Utilized GitLab for version control and collaboration on tasks and merge requests.",
+    ],
   },
   {
     icon: Icons.Code,
@@ -25,7 +26,8 @@ export const timelineData: Array<ITimeline> = [
     date: `2023-2023 ${Reasons.Resign}`,
     activity: Activity.Development,
     where: "https://kpmg.com/",
-    stack: ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern...",
+    stack:
+      ".NET 7, EF Core (Model First), LINQ, Fluent API, Fluent Validation, Swagger UI, C# 10+, xUnit, Fluent Assertions, Selenium, Razor, XAML, UWP, WinUI, UNO Platform, Docker, YAML, Javascript, jQuery, SQL Server, DBeaver, Visual Studio Code, Visual Studio, Neovim, Git, Azure DevOps, Continuous Integration/Delivery, Windows Terminal, Powershell Core, Model View Controller, Model View ViewModel, Unit of Work Pattern, Repository Pattern, Factory Pattern...",
     tasks: [
       "Web applications development.",
       "Mobile applications development.",
@@ -33,8 +35,8 @@ export const timelineData: Array<ITimeline> = [
       "Azure DevOps pipeline workflows.",
       "Headless Selenium tests and xUnit tests automation.",
       "Pull request management.",
-      "Agile development."
-    ]
+      "Agile development.",
+    ],
   },
   {
     icon: Icons.Code,
@@ -42,14 +44,15 @@ export const timelineData: Array<ITimeline> = [
     date: `2022-2023 ${Reasons.Resign}`,
     activity: Activity.Development,
     where: "https://smartwaystudio.com/",
-    stack: ".NET 6+, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Hangfire, Redis, Docker, Kubernetes, YAML, Vue 3 (Composition API), Typescript, Vite, PrimeVue 3, Pinia, MySQL, Oracle, DBeaver, Neovim, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
+    stack:
+      ".NET 6+, EF Core 6+ (Code First), LINQ, Fluent API, Swagger UI, C# 10+, xUnit, Hangfire, Redis, Docker, Kubernetes, YAML, Vue 3 (Composition API), Typescript, Vite, PrimeVue 3, Pinia, MySQL, Oracle, DBeaver, Neovim, Git, Azure DevOps, Domain Driven Design, Clean Architecture...",
     tasks: [
       "Tasks related to the development of certain modules of a microservice based enterprise management platform for an emerging national IT company.",
       "Bug fixing of the aforementioned platform.",
       "Pull request management.",
       "Code coverage with unit tests.",
-      "Agile development."
-    ]
+      "Agile development.",
+    ],
   },
   {
     icon: Icons.Code,
@@ -57,15 +60,16 @@ export const timelineData: Array<ITimeline> = [
     date: `2022-2022 ${Reasons.Change}`,
     activity: Activity.Development,
     where: "https://ibermatica.com/",
-    stack: ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, SQL Server, SQL Server Management Studio, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
+    stack:
+      ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, SQL Server, SQL Server Management Studio, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
     tasks: [
       "Restructured the already created code first DB schema with the addition of required and missing tables based on the client requirements.",
       "Rewrote many parts and added others to the already created .NET MVC RESTful API.",
       "Rewrote many parts and added others to the already created .NET Xamarin.Forms MVVM mobile app.",
       "Created from scratch the ASP.NET Razor MVC web app to manage all the information generated from the mobile app and contained in the DB.",
       "Created the corresponding apps in Azure AD Identity Platform in order to allow authentication and authorization via MSAL between apps.",
-      "Used Azure DevOps platform together with Git and Clockify for version control and backlog, task and time management."
-    ]
+      "Used Azure DevOps platform together with Git and Clockify for version control and backlog, task and time management.",
+    ],
   },
   {
     icon: Icons.Code,
@@ -73,13 +77,14 @@ export const timelineData: Array<ITimeline> = [
     date: `2021-2022 ${Reasons.End}`,
     activity: Activity.Development,
     where: "https://innovative-systems.es/",
-    stack: "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, MariaDB, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, CQRS, Clean Architecture, Markdown, Holded, Bug Fixing, Time & Task Management...",
+    stack:
+      "Python, C++, HTML, CSS, Javascript, Electron, jQuery, Vue, PHP, Scripting, MariaDB, DBeaver, RabbitMQ, Git, GitHub, Windows Terminal, Powershell Core, Visual Studio Code, GNU/Linux, Bash, VirtualBox, Hercules, Domain Driven Design, CQRS, Clean Architecture, Markdown, Holded, Bug Fixing, Time & Task Management...",
     tasks: [
       "Created a scrapper written in Python to obtain all the information from a known wine forum and then processed the data against face recognition OpenCV library and international name database to determine age ranges and genre of potential target clients.",
       "Implemented new functionalities in the platform of the company for both backend and frontend improving the existing codebase.",
       "Added a completely new functionality from scratch which automated logistic status of different devices based on their geolocalized position with respect to a user defined location or moving entities.",
-      "Other minor implementations and bug fixes."
-    ]
+      "Other minor implementations and bug fixes.",
+    ],
   },
   {
     icon: Icons.Briefcase,
@@ -87,8 +92,9 @@ export const timelineData: Array<ITimeline> = [
     date: "2020-2021",
     activity: Activity.Development,
     where: "https://ipartek.com/",
-    stack: "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, Visual Studio Code, Insomnia, Java Server Pages, Servlets, Git, Model View Controller, JSON...",
-    tasks: []
+    stack:
+      "Java JDK 8+, Javascript ES6, Tomcat, MySQL, MySQL Workbench, Eclipse, Visual Studio Code, Insomnia, Java Server Pages, Servlets, Git, Model View Controller, JSON...",
+    tasks: [],
   },
   {
     icon: Icons.Briefcase,
@@ -96,8 +102,9 @@ export const timelineData: Array<ITimeline> = [
     date: "2019-2020",
     activity: Activity.Development,
     where: "https://bbkbootcamp.com/",
-    stack: ".NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, Visual Studio Code, Visual Studio, MSSQL, SQL Server Management Studio, Rest API, JSON Web Tokens, Model View Controller, Insomnia/Postman, JSON...",
-    tasks: []
+    stack:
+      ".NET Core, Entity Framework, Javascript, HTML5, CSS3, jQuery, Bootstrap, Git, Visual Studio Code, Visual Studio, MSSQL, SQL Server Management Studio, Rest API, JSON Web Tokens, Model View Controller, Insomnia/Postman, JSON...",
+    tasks: [],
   },
   {
     icon: Icons.Globe,
@@ -111,8 +118,8 @@ export const timelineData: Array<ITimeline> = [
       "Enterprise & private client service provider migrations.",
       "Help desk & client support.",
       "Networking solutions.",
-      "VoIP solutions."
-    ]
+      "VoIP solutions.",
+    ],
   },
   {
     icon: Icons.Globe,
@@ -125,8 +132,8 @@ export const timelineData: Array<ITimeline> = [
       "FTTH/MacroLAN installations & configuration.",
       "Enterprise & private client service provider migrations.",
       "Help desk & client support.",
-      "Networking solutions."
-    ]
+      "Networking solutions.",
+    ],
   },
   {
     icon: Icons.Camera,
@@ -134,7 +141,8 @@ export const timelineData: Array<ITimeline> = [
     date: `2014-2016 ${Reasons.Change}`,
     activity: Activity.Photography,
     where: "Demez Photo",
-    stack: "Photoshop, Illustrator, Lightroom, Bridge, Camera Raw, Joomla CMS...",
+    stack:
+      "Photoshop, Illustrator, Lightroom, Bridge, Camera Raw, Joomla CMS...",
     tasks: [
       "Wedding management.",
       "Wedding album editing & design.",
@@ -142,8 +150,8 @@ export const timelineData: Array<ITimeline> = [
       "Model shooting.",
       "Photography manipulation.",
       "Branding mockups & design.",
-      "Simple websites."
-    ]
+      "Simple websites.",
+    ],
   },
   {
     icon: Icons.Camera,
@@ -158,8 +166,8 @@ export const timelineData: Array<ITimeline> = [
       "Stock photography.",
       "Model shooting.",
       "Photography manipulation.",
-      "Branding mockups & design."
-    ]
+      "Branding mockups & design.",
+    ],
   },
   {
     icon: Icons.Globe,
@@ -173,8 +181,8 @@ export const timelineData: Array<ITimeline> = [
       "Power measurements in telecommunications facilities.",
       "Verification of network values in central splitters.",
       "Installation of telecommunications racks.",
-      "Installation & configuration of telecommunications equipment."
-    ]
+      "Installation & configuration of telecommunications equipment.",
+    ],
   },
   {
     icon: Icons.Briefcase,
@@ -188,7 +196,7 @@ export const timelineData: Array<ITimeline> = [
       "Active Directory management.",
       "Structured Programming.",
       "Network Design.",
-      "RF Applications."
-    ]
-  }
+      "RF Applications.",
+    ],
+  },
 ];

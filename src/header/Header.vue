@@ -151,11 +151,11 @@ onMounted(async () => {
 
 .socialLink {
   transition: transform 0.2s ease;
-  transform: scale3d(1, 1, 1)
+  transform: scale3d(1, 1, 1);
 }
 
 .socialLink:hover {
-  transform: scale3d(1.3, 1.3, 1.3)
+  transform: scale3d(1.3, 1.3, 1.3);
 }
 
 .social {
