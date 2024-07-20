@@ -2,7 +2,7 @@ import {
   RouteRecordRaw,
   Router,
   createRouter,
-  createWebHistory,
+  createWebHashHistory,
 } from "vue-router";
 
 const routes: RouteRecordRaw[] = [
@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
 ];
 
 const router: Router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 });
 

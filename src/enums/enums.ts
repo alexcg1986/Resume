@@ -1,7 +1,7 @@
 export enum Activity {
   Development = "Software development",
   Photography = "Photography & graphic design",
-  Telecommunications = "Telecommunications"
+  Telecommunications = "Telecommunications",
 }
 
 export enum Icons {
@@ -17,11 +17,11 @@ export enum Icons {
   Link = "pi pi-link",
   LinkedIn = "pi pi-linkedin",
   List = "fa-solid fa-list",
-  Reddit = "pi pi-reddit"
+  Reddit = "pi pi-reddit",
 }
 
 export enum Reasons {
   Change = "(job change)",
   End = "(end of contract)",
-  Resign = "(resign)"
+  Resign = "(resign)",
 }
