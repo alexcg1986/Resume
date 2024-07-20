@@ -38,8 +38,14 @@
         </div>
       </template>
     </Card>
-    <div v-else class="p-col" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-      <ProgressSpinner style="width: 20rem; height: 20rem; fill: transparent;" />
+    <div v-else class="p-col" style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+      ">
+      <div class="dot-spin" />
     </div>
   </div>
 </template>
@@ -52,7 +58,120 @@ import { projectsStore } from "@/shared/projectsStore";
 import { repositoriesStore } from "@/shared/repositoriesStore";
 import { watchEffect } from "vue";
 
-const getLastUpdate = (project: IProject) => project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown"
+const getLastUpdate = (project: IProject) =>
+  project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown";
 
 watchEffect(() => projectsService.sortProjects());
 </script>
+
+<style>
+.dot-spin {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 var(--tertiary-text),
+    12.727926px -12.727926px 0 0 var(--tertiary-text),
+    18px 0 0 0 var(--tertiary-text),
+    12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+    0 18px 0 0 rgba(152, 128, 255, 0),
+    -12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+    -18px 0 0 0 rgba(152, 128, 255, 0),
+    -12.727926px -12.727926px 0 0 rgba(152, 128, 255, 0);
+  animation: dot-spin 1s infinite linear;
+}
+
+@keyframes dot-spin {
+
+  0%,
+  100% {
+    box-shadow: 0 -18px 0 0 var(--tertiary-text),
+      12.727926px -12.727926px 0 0 var(--tertiary-text),
+      18px 0 0 0 var(--tertiary-text),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  12.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 0 var(--tertiary-text),
+      18px 0 0 0 var(--tertiary-text),
+      12.727926px 12.727926px 0 0 var(--tertiary-text),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  25% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 0 var(--tertiary-text),
+      12.727926px 12.727926px 0 0 var(--tertiary-text),
+      0 18px 0 0 var(--tertiary-text),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  37.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 0 var(--tertiary-text),
+      0 18px 0 0 var(--tertiary-text),
+      -12.727926px 12.727926px 0 0 var(--tertiary-text),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  50% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 0 var(--tertiary-text),
+      -12.727926px 12.727926px 0 0 var(--tertiary-text),
+      -18px 0 0 0 var(--tertiary-text),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  62.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 0 var(--tertiary-text),
+      -18px 0 0 0 var(--tertiary-text),
+      -12.727926px -12.727926px 0 0 var(--tertiary-text);
+  }
+
+  75% {
+    box-shadow: 0 -18px 0 0 var(--tertiary-text),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 0 var(--tertiary-text),
+      -12.727926px -12.727926px 0 0 var(--tertiary-text);
+  }
+
+  87.5% {
+    box-shadow: 0 -18px 0 0 var(--tertiary-text),
+      12.727926px -12.727926px 0 0 var(--tertiary-text),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 0 var(--tertiary-text);
+  }
+}
+</style>

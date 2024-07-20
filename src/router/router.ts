@@ -1,23 +1,23 @@
 import {
-  createRouter,
-  createWebHashHistory,
-  Router,
   RouteRecordRaw,
+  Router,
+  createRouter,
+  createWebHistory,
 } from "vue-router";
 
 const routes: RouteRecordRaw[] = [
   {
-    component: () => import("@/views/Timeline.vue"),
+    component: () => import("@/views/Projects.vue"),
     path: "/",
   },
   {
-    component: () => import("@/views/Projects.vue"),
-    path: "/projects",
+    component: () => import("@/views/Timeline.vue"),
+    path: "/timeline",
   },
 ];
 
 const router: Router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 
