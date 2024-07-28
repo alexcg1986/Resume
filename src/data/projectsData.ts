@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: IProject[] = [
   {
+    id: "CleanTemplate8",
+    pushed_at: "",
+    name: ".NET 8 Clean Architecture Template",
+    image: require("@/assets/clean8.png"),
+    repo: "https://github.com/mezdelex/CleanTemplate8",
+    app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
+    description:
+      ".NET 8 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Minimal API, Docker for SQLServer and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
+  },
+  {
     id: "LFConfig",
     pushed_at: "",
     name: "LF File Manager",
@@ -34,12 +44,12 @@ export const projectsData: IProject[] = [
   {
     id: "CleanTemplate",
     pushed_at: "",
-    name: "Clean Architecture Template",
+    name: ".NET 7 Clean Architecture Template",
     image: require("@/assets/clean.png"),
     repo: "https://github.com/mezdelex/CleanTemplate",
     app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
     description:
-      ".NET 8 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Producer/Consumer pattern with Kafka, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
+      ".NET 7 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
   },
   {
     id: "TodoApp",
@@ -119,7 +129,7 @@ export const projectsData: IProject[] = [
     repo: "https://github.com/mezdelex/LeetCode",
     app: "https://leetcode.com/mezdelex",
     description:
-      "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with VSCode.",
+      "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with Neovim.",
   },
   {
     id: "Resume",
