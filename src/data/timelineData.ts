@@ -4,8 +4,18 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
+    title: "Grupo Romeu Multiservices",
+    date: `2024-Present`,
+    activity: Activity.Development,
+    where: "https://romeu.com/",
+    stack:
+      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Dapr, Domain/Integration Events, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, MassTransit, RabbitMQ, DBeaver, Fluent Validations, SQLServer, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, K9s, Kubernetes, Lazydocker, Lazygit, Lua, Neovim, Powershell, Windows Terminal, YAML, Kubectl...",
+    tasks: ["To be determined..."],
+  },
+  {
+    icon: Icons.Code,
     title: "enbî",
-    date: `2023-Present`,
+    date: `2023-2024 ${Reasons.Change}`,
     activity: Activity.Development,
     where: "https://northbim.com/",
     stack:
@@ -23,7 +33,7 @@ export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
     title: "KPMG",
-    date: `2023-2023 ${Reasons.Resign}`,
+    date: `2023 ${Reasons.Resign}`,
     activity: Activity.Development,
     where: "https://kpmg.com/",
     stack:
@@ -57,7 +67,7 @@ export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
     title: "Ibermática",
-    date: `2022-2022 ${Reasons.Change}`,
+    date: `2022 ${Reasons.Change}`,
     activity: Activity.Development,
     where: "https://ibermatica.com/",
     stack:
