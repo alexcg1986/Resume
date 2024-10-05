@@ -7,10 +7,19 @@ export const timelineData: ITimeline[] = [
     title: "Grupo Romeu Multiservices",
     date: `2024-Present`,
     activity: Activity.Development,
-    where: "https://romeu.com/",
+    where: "https://romeu.tech/",
     stack:
-      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Dapr, Domain/Integration Events, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, MassTransit, RabbitMQ, DBeaver, Fluent Validations, SQLServer, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, K9s, Kubernetes, Lazydocker, Lazygit, Lua, Neovim, Powershell, Windows Terminal, YAML, Kubectl...",
-    tasks: ["To be determined..."],
+      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Fluent Validations, MySQL, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Lazygit, Lua, Neovim, Visual Studio, Powershell, Windows Terminal, YAML, Confluence...",
+    tasks: [
+      "Took part in the company's new microservice API architecture implementation and refinement.",
+      "Shared technical guides in the company's Confluence repository.",
+      "Created Powershell scripts to reestructure company's main code repository following the provided guidelines and maintining each existing branch tracking history per moved subproject.",
+      "Implemented code formatting/linting pre-commit hooks via Husky for staged files for the new API repository.",
+      "Modernized company's report designing workflow adding DevExpress Web Reporting MVC framework to Reporting microservice.",
+      "Implemented delegated Identity handlers in the new microservices architecture.",
+      "Created base templates of specific microservice parts to allow its scaffolding via dotnet CLI.",
+      "Followed agile development guidelines under Scrum framework.",
+    ],
   },
   {
     icon: Icons.Code,

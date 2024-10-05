@@ -12,16 +12,6 @@ export const projectsData: IProject[] = [
       ".NET 8 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Minimal API, Docker for SQLServer and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
   },
   {
-    id: "LFConfig",
-    pushed_at: "",
-    name: "LF File Manager",
-    image: require("@/assets/lf.png"),
-    repo: "https://github.com/mezdelex/LFConfig",
-    app: "https://github.com/gokcehan/lf/wiki/Tutorial",
-    description:
-      "LF TUI File Manager config with essential custom keymaps and options, custom color and icon integration per file type/extension/pattern/format and pane layout border.",
-  },
-  {
     id: "AoC2023",
     pushed_at: "",
     name: "Advent of Code (2023)",
@@ -79,7 +69,7 @@ export const projectsData: IProject[] = [
     repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
     app: "https://learn.microsoft.com/en-us/windows/terminal/",
     description:
-      "Windows Terminal config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s...",
+      "Windows Terminal config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
   },
   {
     id: "NeovimConfig",
