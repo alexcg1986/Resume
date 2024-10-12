@@ -62,14 +62,14 @@ export const projectsData: IProject[] = [
       "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord.",
   },
   {
-    id: "WindowsTerminalPowerShellCoreConfig",
+    id: "WeztermPowerShellCoreConfig",
     pushed_at: "",
-    name: "Windows Terminal",
-    image: require("@/assets/wtpwsh.png"),
-    repo: "https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig",
-    app: "https://learn.microsoft.com/en-us/windows/terminal/",
+    name: "Wezterm",
+    image: require("@/assets/wezterm.png"),
+    repo: "https://github.com/mezdelex/WeztermPowerShellCoreConfig",
+    app: "https://github.com/wez/wezterm",
     description:
-      "Windows Terminal config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
+      "Wezterm config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
   },
   {
     id: "NeovimConfig",

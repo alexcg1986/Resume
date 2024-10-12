@@ -9,7 +9,7 @@ export const timelineData: ITimeline[] = [
     activity: Activity.Development,
     where: "https://romeu.tech/",
     stack:
-      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Fluent Validations, MySQL, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Lazygit, Lua, Neovim, Visual Studio, Powershell, Windows Terminal, YAML, Confluence...",
+      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Fluent Validations, MySQL, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Lazygit, Lua, Neovim, Visual Studio, Powershell, Wezterm, Windows Terminal, YAML, Confluence...",
     tasks: [
       "Took part in the company's new microservice API architecture implementation and refinement.",
       "Shared technical guides in the company's Confluence repository.",
@@ -18,6 +18,10 @@ export const timelineData: ITimeline[] = [
       "Modernized company's report designing workflow adding DevExpress Web Reporting MVC framework to Reporting microservice.",
       "Implemented delegated Identity handler service in the new microservices architecture and policy based authorization workflows.",
       "Implemented activity registering automated mechanism using EF interceptors and integration events via Dapr Pub/Sub.",
+      "Implemented BaseSpecification pattern using Ardalis Specification library to automatically enforce restrictions in specific queries based on context data.",
+      "Implemented an analog system for Dapper queries using Dapper's SqlBuilder extension and a custom, simpler, Specification-alike wrapper.",
+      "Created scaffolding templates to ease the process of generating new microservices, services and entities respectively using dotnet CLI.",
+      "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],
   },
