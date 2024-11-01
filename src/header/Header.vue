@@ -10,7 +10,7 @@
     <div class="p-d-flex p-flex-column p-jc-around p-ai-center">
       <img class="selfie" :src="require('@/assets/alejandro.png')" />
       <h2 class="subTitle">
-        <span class="software-developer">Software Developer</span>
+        <span class="software-developer">Software Development Engineer</span>
       </h2>
       <h1 class="title">
         <span class="curly-brackets">{</span>

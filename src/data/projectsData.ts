@@ -69,7 +69,7 @@ export const projectsData: IProject[] = [
     repo: "https://github.com/mezdelex/WeztermPowerShellCoreConfig",
     app: "https://github.com/wez/wezterm",
     description:
-      "Wezterm config with custom Delugia font, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
+      "Wezterm config with Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
   },
   {
     id: "NeovimConfig",
