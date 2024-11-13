@@ -23,6 +23,7 @@ export const timelineData: ITimeline[] = [
       "Created scaffolding templates to ease the process of generating new microservices, services and entities respectively using dotnet CLI.",
       "Added automated processes during the report generation workflow to allow uploading the newly created reports to the document management platform (Azure Blob Storage) and notify via email the blobUrl to config defined recipients replacing each dynamic field with corresponding translations.",
       "Implemented unit tests with xUnit and NSubstitute for several controllers, commands/queries and validators.",
+      "Extended the company's shared Identity based permission API functionality.",
       "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],

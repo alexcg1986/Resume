@@ -40,7 +40,7 @@ import Header from "@/header/Header.vue";
 
 .p-card {
   border-radius: 1rem;
-  height: 37rem;
+  height: 39rem;
   width: 24rem;
 }
 
@@ -78,7 +78,7 @@ import Header from "@/header/Header.vue";
 }
 
 .description-field {
-  height: 13rem;
+  height: 15rem;
 }
 
 .text-small {
