@@ -4,12 +4,12 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
-    title: "Grupo Romeu Multiservices",
+    title: "Romeu Shipping Division",
     date: `2024-Present`,
     activity: Activity.Development,
-    where: "https://romeu.tech/",
+    where: "https://romeu.com/",
     stack:
-      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Azure Blob Storage Explorer, Fluent Validations, MySQL, CosmosDB, Azure Blob Storage, xUnit, Testcontainers, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Brevo, Maildev, Lazygit, Lazydocker, Lua, Neovim, Visual Studio, Powershell, Wezterm, YAML, Confluence...",
+      ".NET 8+, C# 12+, Typescript, Angular, RxJS, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Azure Blob Storage Explorer, Fluent Validations, MySQL, CosmosDB, Azure Blob Storage, xUnit, Testcontainers, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Brevo, Maildev, Lazygit, Lazydocker, Lua, Neovim, Visual Studio, Powershell, Wezterm, YAML, Confluence...",
     tasks: [
       "Took part in the company's new microservice API architecture implementation and refinement.",
       "Shared technical guides in the company's Confluence repository.",
@@ -23,7 +23,8 @@ export const timelineData: ITimeline[] = [
       "Created scaffolding templates to ease the process of generating new microservices, services and entities respectively using dotnet CLI.",
       "Added automated processes during the report generation workflow to allow uploading the newly created reports to the document management platform (Azure Blob Storage) and notify via email the blobUrl to config defined recipients replacing each dynamic field with corresponding translations.",
       "Implemented unit tests with xUnit and NSubstitute for several controllers, commands/queries and validators.",
-      "Extended the company's shared Identity based permission API functionality.",
+      "Extended the company's shared Identity based permission management API and Web functionality adding permission trees and related optional tags.",
+      "Created the UI service to transform previously generated right trees into dynamic menus to be retrieved by client applications.",
       "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],

@@ -7,7 +7,8 @@
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@types/lodash": "^4.14.202",
     "@vue/cli": "^5.0.8",
-    "@vue/typescript-plugin": "^2.0.26",
+    "@vue/language-server": "^2.1.10",
+    "@vue/typescript-plugin": "^2.1.10",
     "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
     "lodash": "^4.17.21",
@@ -18,7 +19,7 @@
     "vue": "^3.2.26",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
