@@ -4,7 +4,7 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
-    title: "Romeu Shipping Division",
+    title: "Romeu Shipping Agency",
     date: `2024-Present`,
     activity: Activity.Development,
     where: "https://romeu.com/",
@@ -25,6 +25,7 @@ export const timelineData: ITimeline[] = [
       "Implemented unit tests with xUnit and NSubstitute for several controllers, commands/queries and validators.",
       "Extended the company's shared Identity based permission management API and Web functionality adding permission trees and related optional tags.",
       "Created the UI service to transform previously generated right trees into dynamic menus to be retrieved by client applications.",
+      "Added several master table models, each entity's corresponding tests and code first migrations",
       "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],
